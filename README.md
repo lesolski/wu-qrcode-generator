@@ -16,7 +16,7 @@ Example usage:
 This will produce qr code with WU blue color as seen below. <br><br>
 ![WU Blue QR code](samples/wu-blue.png)
 <br></br>
-Examples:
+Other examples:
 <br></br>
 ![WU default QR code](samples/default.png) ![WU Teams QR code](samples/teams.png) ![WU Zoom Invite QR code](samples/zoom.png) ![WU WhatsApp Invite QR code](samples/whatsapp.png)
 
