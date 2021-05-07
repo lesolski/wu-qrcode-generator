@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(description='Make a custom WU QR code.')
 parser.add_argument('text', help='Text that you want to put into qr code.', type=str)
 parser.add_argument('--color', help='HEX color for logo and qr code, default is black', type=str, default='#000000')
 parser.add_argument('--path', help='Path and name of file where to save it', default=os.getcwd() + '/qrcode.png', type=str)
-parser.add_argument('--size', help='Tuple of width and hight 200x200 is default, first add width then hight', type=str, default=('200x200'))
+parser.add_argument('--size', help='Tuple of width and hight 200x200 is default, first add width then hight', type=str, default=('100x100'))
 args = parser.parse_args()
 
 
