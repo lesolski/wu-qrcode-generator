@@ -13,7 +13,7 @@ Example usage:
  <br><br>
 `python3 qrcodes.py https://www.github.com/djyra --color "#008198" --path samples/wu-blue.png --size 200x200`
 <br></br>
-This will produce qr code with WU blue color as seen below. <br><br>
+This will produce qr code with Learn@WU platform blue color as seen below. <br><br>
 ![WU Blue QR code](samples/wu-blue.png)
 <br></br>
 Other examples:
