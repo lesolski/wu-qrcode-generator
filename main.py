@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 import qrcode
 from PIL import Image
 import argparse
@@ -31,6 +33,7 @@ def make_qr_code(text:str, color:str, path:str, resize_tuple:str):
     # logo as foreground
     logo = Image.open('logo/wu-logo.png', 'r')
     data = np.array(logo)
+    
 
     # changing color of logo to desired color
     r1, g1, b1 = 255, 255, 255
@@ -52,7 +55,8 @@ def make_qr_code(text:str, color:str, path:str, resize_tuple:str):
     x, y = resize_tuple.split('x')
     qr_code = bg.resize((int(x), int(y)))
     qr_code.save(path, format='PNG')
-
-    return
+    
+    print(f'QR code saved at {path}')
+    return 
 
 make_qr_code(text=args.text, color=args.color, path=args.path, resize_tuple=args.size)
